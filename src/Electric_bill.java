@@ -18,46 +18,22 @@ public class Electric_bill {
         float interest, penalty;
 
         switch (fdigit) {               //to calculate interest from date(DD) first digit
-            case 1:
-                interestF =0;
-                break;
-            case 2:
-                interestF = 10;
-                break;
-            case 3:
-                interestF = 20;
-                break;
+            case 1 -> interestF = 0;
+            case 2 -> interestF = 10;
+            case 3 -> interestF = 20;
         }
         //System.out.println(interestF);
 
         switch (ldigit) {              //to calculate interest from date(DD) last digit
-            case 1:
-                interestL = 1;
-                break;
-            case 2:
-                interestL = 2;
-                break;
-            case 3:
-                interestL = 3;
-                break;
-            case 4:
-                interestL = 4;
-                break;
-            case 5:
-                interestL = 5;
-                break;
-            case 6:
-                interestL = 6;
-                break;
-            case 7:
-                interestL = 7;
-                break;
-            case 8:
-                interestL = 8;
-                break;
-            case 9:
-                interestL = 9;
-                break;
+            case 1 -> interestL = 1;
+            case 2 -> interestL = 2;
+            case 3 -> interestL = 3;
+            case 4 -> interestL = 4;
+            case 5 -> interestL = 5;
+            case 6 -> interestL = 6;
+            case 7 -> interestL = 7;
+            case 8 -> interestL = 8;
+            case 9 -> interestL = 9;
         }
         //System.out.println(interestL);
 
